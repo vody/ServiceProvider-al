@@ -1,0 +1,24 @@
+{
+  "id": "7117a856-4a43-43cd-aa77-024fbf91ea86",
+  "name": "Service Provider",
+  "publisher": "Vlad Leonov",
+  "brief": "Dependency Injection Framework",
+  "description": "Dependency Injection Framework",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50199
+    }
+  ],
+  "target": "OnPrem"
+}
