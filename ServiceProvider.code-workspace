@@ -1,0 +1,56 @@
+{
+    "settings": {
+        "CRS.ObjectNameSuffix": "",
+        "CRS.OnSaveAlFileAction": "Rename",
+        "CRS.DisableDefaultAlSnippets": true,
+        "CRS.RenameWithGit": true,
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.RemoveSuffixFromFilename": true,
+        "CRS.RemoveUnderscoreFromFilename": true,
+        "al.packageCachePath": "../.alpackages",
+        "al.enableCodeAnalysis": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${PerTenantExtensionCop}"
+        ],
+        "al.assemblyProbingPaths": [
+            "./.netpackages",
+            "C:\\Program Files (x86)\\Reference Assemblies\\Microsoft\\Framework\\.NETFramework\\v4.6"
+        ],
+        "al.snapshotOutputPath": "../.snapshots",
+        "al.snapshotDebuggingPath": "../.snapshots",
+        "al.ruleSetPath": "../al.ruleset.json",
+        "files.exclude": {
+            "**/.snapshots": true,
+            ".vscode/rad.json": true,
+            ".vscode/al.code-snippets": true,
+            ".vscode/md.code-snippets": true,
+            ".vscode/json.code-snippets": true
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "files.autoSave": "off",
+        "[markdown]": {
+            "files.trimTrailingWhitespace": false
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-dynamics-smb.al",
+            "waldo.crs-al-language-extension"
+        ]
+    },
+    "folders": [
+        {
+            "path": ".alpackages"
+        },
+        {
+            "path": "MAIN"
+        },
+        {
+            "path": "TEST"
+        }
+    ]
+}
