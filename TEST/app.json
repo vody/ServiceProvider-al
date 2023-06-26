@@ -1,15 +1,15 @@
 {
-  "id": "9f917072-4ba0-4d01-abdc-417a006dbaf6",
-  "name": "OpenFeature (TEST)",
-  "publisher": "Theta Systems Limited",
-  "version": "3.2.0.0",
-  "brief": "Feature Flagging / Toggling / Switching",
-  "description": "Same as a brief one",
-  "privacyStatement": "https://www.theta.co.nz/contact-us/privacy-policy",
-  "EULA": "https://www.theta.co.nz/media/3805/terms-and-conditions-for-appsource-apps-for-business-central.pdf",
-  "help": "https://www.theta.co.nz/contact-us",
-  "url": "https://www.theta.co.nz/",
-  "logo": "../logo.png",
+  "id": "be691ef0-416e-41c4-84fe-a784db196adf",
+  "name": "Service Provider (Test)",
+  "publisher": "Vlad Leonov",
+  "version": "1.0.0.0",
+  "brief": "Tests for Dependency Injection Framework",
+  "description": "Tests for Dependency Injection Framework",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
   "dependencies": [
     {
       "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
@@ -24,10 +24,10 @@
       "version": "1.0.0.0"
     },
     {
-      "id": "c42f2379-d7b5-4378-8ce4-9bca293c6189",
-      "publisher": "Theta Systems Limited",
-      "name": "OpenFeature",
-      "version": "3.0.0.0"
+      "id": "7117a856-4a43-43cd-aa77-024fbf91ea86",
+      "publisher": "Vlad Leonov",
+      "name": "Service Provider",
+      "version": "1.0.0.0"
     }
   ],
   "screenshots": [],
@@ -35,21 +35,9 @@
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50199
+      "from": 50200,
+      "to": 50299
     }
   ],
-  "contextSensitiveHelpUrl": "https://docs.microsoft.com/{0}/dynamics365/business-central",
-  "supportedLocales": ["en-NZ", "en-AU", "en-US", "en-GB"],
-  "resourceExposurePolicy": {
-    "allowDebugging": false,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  },
-  "runtime": "11.0",
-  "features": [
-    "TranslationFile",
-    "NoImplicitWith",
-    "ExcludeGeneratedTranslations"
-  ]
+  "target": "Cloud"
 }

@@ -1,7 +1,7 @@
 {
     "settings": {
         "CRS.ObjectNameSuffix": "",
-        "CRS.OnSaveAlFileAction": "Rename",
+        "CRS.OnSaveAlFileAction": "Reorganize",
         "CRS.DisableDefaultAlSnippets": true,
         "CRS.RenameWithGit": true,
         "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
