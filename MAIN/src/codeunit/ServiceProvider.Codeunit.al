@@ -19,7 +19,7 @@ codeunit 50100 "Service Provider"
     end;
 
     [NonDebuggable]
-    local procedure AddService(InterfaceName: Text[250]; Provider: Text; Service: Variant): Codeunit "Service Provider"
+    procedure AddService(InterfaceName: Text[250]; Provider: Text; Service: Variant): Codeunit "Service Provider"
     var
         ServiceProvider: Codeunit "Service Provider";
     begin
